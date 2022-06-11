@@ -78,4 +78,5 @@ As an example, we provide below two figures that show the evolution of the loss 
 
 
 #### Licensing
+---
 Please see [LICENSE](./LICENSE.txt) for more info.

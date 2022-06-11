@@ -1,3 +1,0 @@
-train.h5 filter=lfs diff=lfs merge=lfs -text
-test1.h5 filter=lfs diff=lfs merge=lfs -text
-test2.h5 filter=lfs diff=lfs merge=lfs -text

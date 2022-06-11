@@ -76,4 +76,4 @@ As an example, we provide below two figures that show the evolution of the loss 
 
 
 #### Licensing
-Please see [LICENSE](./assets/License(Apache-2.0).txt) for more info.
+Please see [LICENSE](./LICENSE.txt) for more info.

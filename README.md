@@ -27,7 +27,7 @@ $$
 <div align="center">
 <img src="./assets/nodearch.png" alt="device_node"  width="250" height="230">
 </div>
-All the datasets used in the first step are available on the [data/4-port switch](data/4-port switch) directory. 
+All the datasets used in the first step are available on the `data/4-port switch`  directory. 
 
 After that, we present a demo to illustrate how to use the trained device model, deepQueueNet, to make end-to-end inference on a fattree topology. The task is deployed on 4 GPUs. 
 
@@ -35,7 +35,7 @@ After that, we present a demo to illustrate how to use the trained device model,
 <div align="center">
 <img src="./assets/deploy.png" alt="deplo"  width="500" height="230">
 </div>
-All the datasets used in the second step are available on the [data/fattree16](data/fattree16) directory. 
+All the datasets used in the second step are available on the `data/fattree16`  directory. 
 
 
 

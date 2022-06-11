@@ -35,7 +35,7 @@ After that, we present a demo to illustrate how to use the trained device model,
 <div align="center">
 <img src="./assets/deploy.png" alt="deplo"  width="500" height="230">
 </div>
-All the datasets used in the second step are available on the `data/fattree16`  directory. 
+All the datasets used in the second step are available on the [data/fattree16](./data/fattree16)  directory. 
 
 
 

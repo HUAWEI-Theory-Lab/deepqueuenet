@@ -37,7 +37,7 @@ After that, we present a demo to illustrate how to use the trained device model,
 <img src="./assets/deploy.png" alt="deplo"  width="500" height="230">
 </div>
 
-All the datasets used in the second step are available on the `data/4-port switch`  directory. 
+All the datasets used in the second step are available on the `data/fattree16`  directory. 
 
 
 

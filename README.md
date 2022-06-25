@@ -75,7 +75,7 @@ As an example, we provide below two figures that show the evolution of the loss 
 <img src="./assets/test_exogenesis.png" alt="dist_test2"  width="500" height="160">
 </div>
 
-To make end-to-end inference on fattree topology using  the trained device model, please run  `2. traffic gen. on fattree16.ipynb.`  
+To make end-to-end inference on a fattree16 topology, please run  `2. traffic gen. on fattree16.ipynb.`  
 
 
 #### Licensing

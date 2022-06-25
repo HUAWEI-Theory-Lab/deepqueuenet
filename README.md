@@ -16,8 +16,7 @@ In this demo, we illustrate how to use DeepQueueNet step-by-step to make end-to-
 - Poisson
 - On-off. 
 
-The code of DeepQueueNet   used in the demo is   written in tensorflow1.13.1 and   available on the [code_deepQueueNet](./code_deepQueueNet) directory.   Please check your environment before you run the following notebooks.    
-The first jupyter notebook (1. device model.ipynb) shows how to use device-level data to train a device model.  Namely, to predict the delay distribution of a packet given the past T time steps' information when it arrives at a N-port switch:
+The code of DeepQueueNet   used in the demo is  written in `tensorflow1.13.1` and  available on the [code_deepQueueNet](./code_deepQueueNet) directory.   Please check your environment before you run the following notebooks.  The first jupyter notebook (1. device model.ipynb) shows how to use device-level data to train a device model.  Namely, to predict the delay distribution of a packet given the past T time steps' information when it arrives at a N-port switch:
 
 $$
 [x_{t-T+1}, x_{t-T+1}, \cdots, x_t]\stackrel{f(\cdot)}{\longrightarrow} delay.

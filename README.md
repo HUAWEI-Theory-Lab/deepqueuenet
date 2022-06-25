@@ -28,7 +28,7 @@ $$
 
 All the datasets used in the first step are available on the `data/4-port switch`  directory. 
 
-After that, we present a demo to illustrate how to use the trained device model, deepQueueNet, to make end-to-end inference on a fattree topology. The task is deployed on 4 GPUs. 
+After that, we present a demo to illustrate how to use the trained device model, deepQueueNet, to make end-to-end inference on a fattree topology in the second notebook (2. traffic gen. on fattree16.ipynb). The task is deployed on 4 GPUs. 
 
 
 <div align="center">

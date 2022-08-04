@@ -44,10 +44,9 @@ All the datasets used in the second step are available on the `data/fattree16`  
 ---
 First of all, please make sure that you have at least 1 GPU on hand (16GB memory is required to run the device model). You can prepare the Python enviroment for the demo with either
 ```python
+#either
 Anaconda3 2020.02 (python3.7.6)  #recommended
-```
-or 
-```python
+#or 
  cuda10.0-cudnn7-ubuntu18.04
 ```   
 and execute the following command

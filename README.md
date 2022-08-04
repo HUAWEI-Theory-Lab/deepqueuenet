@@ -42,11 +42,17 @@ All the datasets used in the second step are available on the `data/fattree16`  
 
 #### `How to` guide
 ---
-First of all, you can prepare the Python environment for the demo with 
+First of all, please make sure that you have a GPU with enough memory (e.g., 16GB) on hand.  You can prepare the Python enviroment for the demo with 
+1. (Recommended)
+```python
+Anaconda3 2020.02 (python3.7.6)
+tensorflow1.13.1-gpu
+```
+2. or 
 ```python
  tensorflow1.13-cuda10.0-cudnn7-ubuntu18.04
-```
-and   execute the following command 
+```   
+and execute the following command
 ```python
  pip install -r requirements.txt
 ```

@@ -47,7 +47,7 @@ First of all, please make sure that you have at least 1 GPU on hand (16GB memory
 #either
 Anaconda3 2020.02 (python3.7.6)  #recommended
 #or 
- cuda10.0-cudnn7-ubuntu18.04
+cuda10.0-cudnn7-ubuntu18.04
 ```   
 and execute the following command
 ```python

@@ -24,14 +24,14 @@ To train and evaluate DeepQueueNet (`1. device model.ipynb`),  we provide some r
 
 ## Description
 ---
-In this demo, we illustrate how to use DeepQueueNet step-by-step to make end-to-end inference on a fattree topology with different traffic patterns (Traffic Pattern Generality):
+In this demo, we illustrate how to use DeepQueueNet step-by-step to make end-to-end inference on a fattree topology with input flows of different traffic patterns (traffic pattern generality):
 - MAP
 - Poisson process
 - On-off process. 
 
 The code of DeepQueueNet used in the demo is available on the [code_deepQueueNet](./code_deepQueueNet) directory.
 
-The first jupyter notebook (`1. device model.ipynb`) shows how to use device-level data to train a device model.  Namely, to predict the delay distribution of a packet given the past T time steps' information when it arrives at a N-port switch:
+The first jupyter notebook (`1. device model.ipynb`) shows how to use device-level data to train a device model.  Namely, to predict the delay distribution of a packet given the past T time steps' information when it arrives at an N-port switch:
 
 $$
 [x_{t-T+1}, x_{t-T+1}, \cdots, x_t]\stackrel{f(\cdot)}{\longrightarrow} delay.
@@ -59,7 +59,7 @@ All the datasets used in the second step are available on the `data/fattree16` d
 ---
 The accuracy of device models is critical to DeepQueueNet. As an example, a device model is provided in the [trained](./trained) directory. 
 
-The following figures show the evolution of the loss (Mean Square Error), the prediction accuracy (Pearson correlation coefficient) and the comparison of delay distribution between the prediction and ground-grouth.
+The following figures show the evolution of the loss (mean square error), the prediction accuracy (Pearson correlation coefficient) and the comparison of delay distributions obtained by prediction and ground-grouth.
 
 1. learning curve
 
@@ -85,9 +85,9 @@ The following figures show the evolution of the loss (Mean Square Error), the pr
 <img src="./assets/test_exogenesis.png" alt="dist_test2"  width="500" height="160">
 </div>
 
-To make end-to-end inference on a fattree16 topology, please run  `2. traffic gen. on fattree16.ipynb.`  
+To make end-to-end inference on a fattree16 topology, please run `2. traffic gen. on fattree16.ipynb.`  
 
 
 #### Licensing
 ---
-Please see [LICENSE](./LICENSE.txt) for more info.
+Please see [LICENSE](./LICENSE.txt) for more information.

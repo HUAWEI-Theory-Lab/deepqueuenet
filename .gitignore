@@ -1,5 +1,5 @@
-__pycache__/
+**__pycache__/
 **/.ipynb_checkpoints/
 *.DS_Store
-trained/*
+saved/*
 data/*

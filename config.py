@@ -15,7 +15,7 @@ class BaseConfig:
     sp_wgt=0.
     seed=0
     window=63   #window size to cal. average service time.
-    no_process=15 #multi-processing:no of processes used. 
+    no_process=8 #multi-processing:no of processes used. 
     epochs=6
     n_outputs=1 
     learning_rate=0.001
@@ -24,20 +24,18 @@ class BaseConfig:
     att=64. #attention output layer dim
     mul_head=3
     mul_head_output_nodes=32
-    
-    
-    
-    
-    
 
-class modelConfig:
-    scaler='./trained/scaler'  
+
+
+class ModelConfig:
+    scaler='./data/_scaler'  
     model='./trained/model' 
     md=341
-    train_sample= './trained/sample/train.h5'
-    test1_sample= './trained/sample/test1.h5'
-    test2_sample= './trained/sample/test2.h5'
+    # train_sample= './trained/sample/train.h5'
+    # test1_sample= './trained/sample/test1.h5'
+    # test2_sample= './trained/sample/test2.h5'
     bins=100
-    errorbins='./trained/error'
+    errorbins='./data/_error'
     error_correction=False
+    
     

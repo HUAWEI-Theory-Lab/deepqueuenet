@@ -18,9 +18,9 @@ class cScaler:
     def cluster(self):
         """Combine scaler of columns within the same category"""
         for key in self.keys:
-            if 'TI' in key:
-                self.MIN[key]=f('TI', self.MIN, self.no_of_port, None, 'min')
-                self.MAX[key]=f('TI', self.MAX, self.no_of_port, None, 'max')  
+            if 'port_load' in key:
+                self.MIN[key]=f('port_load', self.MIN, self.no_of_port, None, 'min')
+                self.MAX[key]=f('port_load', self.MAX, self.no_of_port, None, 'max')  
             elif 'load' in key:
                 self.MIN[key]=f('load_dst', self.MIN, self.no_of_port, self.no_of_buffer, 'min')
                 self.MAX[key]=f('load_dst', self.MAX, self.no_of_port, self.no_of_buffer, 'max')  

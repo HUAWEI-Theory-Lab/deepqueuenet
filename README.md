@@ -1,8 +1,8 @@
 # DeepQueueNet: Towards Scalable and Generalized Network Performance Estimation with Packet-level Visibility
 ---
 
-Demo paper in ACM SIGCOMM 2022
-
+Demo paper in ACM SIGCOMM 2022     
+ 
 
 #### Abstract 
 ---
@@ -90,4 +90,5 @@ To make end-to-end inference on a fattree16 topology, please run `2. traffic gen
 
 #### Licensing
 ---
-Please see [LICENSE](./LICENSE.txt) for more information.
+Please see [LICENSE](./LICENSE.txt) for more information.   
+此开源项目非华为产品，仅提供有限支持。 
